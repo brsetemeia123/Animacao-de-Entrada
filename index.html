@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Site para a animação de entrada</title>
+</head>
+
+<body>
+
+    <header>
+    <div id="topo">
+      <div id="marca">
+        <img src="img/logo.png" alt="Nosso Site" title="Nosso Site">
+        <h1>Nosso Site</h1>
+      </div>
+      <div id="menu">
+        <div id="redes">
+          <ul>
+            <li><a href="#"><img src="img/insta.png" alt="instagram" target="_blank"></a></li>
+            <li><a href="#"><img src="img/face.png" alt="facebook" target="_blank"></a></li>
+            <li><a href="#"><img src="img/you.png" alt="youtube" target="_blank"></a></li>
+          </ul>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="home">
+    <div id="banner" class="parallax">
+      <h2>Curso Técnico de Informática para Internet</h2>
+      <h4>Etec de Heliópolis</h4>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="card">
+      <img src="img/clock.svg" alt="">
+      <h3>Carga Horária</h3>
+      <h4>3000 h</h4>
+    </div>
+    <div class="card">
+      <img src="img/calendar.svg" alt="">
+      <h3>Duração</h3>
+      <h4>3 anos</h4>
+    </div>
+    <div class="card">
+      <img src="img/calendar.svg" alt="">
+      <h3>Tipo de curso</h3>
+      <h4>Ensino Médio integrado ao técnico (M-Tec)</h4>
+    </div>
+    <div class="card">
+      <img src="img/calendar.svg" alt="">
+      <h3>Eixo tecnológico</h3>
+      <h4>Informação e Comunicação</h4>
+    </div>
+    <div class="card">
+      <img src="img/clock.svg" alt="">
+      <h3>Horário</h3>
+      <h4>Das 7:50 até 12:50</h4>
+    </div>
+    <div class="card">
+      <img src="img/calendar.svg" alt="">
+      <h3>Local</h3>
+      <h4>Etec do Heliópolis</h4>
+    </div>
+  </section>
+
+  <section id="quemsou">
+    <div class="quem">
+      <img src="imagine dragons.webp" alt="Foto de Perfil" title="Foto de Perfil">
+    </div>
+    <div id="dados">
+      <h2>Thiago S.B </h2>
+      <p>Aluno do 1º ano de Técnico em Informática na Etec de Heliópolis!</p>
+    </div>
+  </section>
+
+  <section id="aulas">
+    <div class="iw1">
+      <h2>Interfaces WEB I</h2>
+      <img src="img/aspas.svg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe natus similique illum dolor amet
+        aut. Esse molestiae alias ea, doloremque quasi iure libero hic sint officiis deleniti? Dicta, labore!</p>
+    </div>
+  </section>
+
+  <section id="botao">
+    <a href="#home">
+      <svg width="64px" height="32px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 8L2 8L2 6L8 0L14 6L14 8L10 8L10 16L6 16L6 8Z" fill="#0149ff"></path>
+      </svg>
+    </a>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+
+    <div class="localizacao">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2667280166243!2d-73.98976252483067!3d40.75615788491239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1spt-BR!2sbr!4v1758850774629!5m2!1spt-BR!2sbr"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <div class="dados-contato">
+        <h3>Informações</h3>
+        <p><strong>Endereço:</strong> Times Square fica entre a 42nd Street e a 47th Street, em Manhattan, Nova York.</p>
+        <p><strong>Telefone:</strong> (11) 97855-8999</p>
+        <p><strong>E-mail:</strong> siqueirathiaguinho2510@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- FORMULÁRIO -->
+    <div class="formulario">
+      <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Nosso Site | Esse site pertence a Thiago S.B</p>
+  </footer>
+
+</body>
+</html>
